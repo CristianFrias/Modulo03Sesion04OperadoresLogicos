@@ -11,10 +11,10 @@
 
 <body>
 
-    <h1>Operadores Lógicos</h1>
+    <h1 class="text-center mt-3">Operadores Lógicos</h1>
 
     <main class="container">
-        <section>
+        <section class="mt-5">
             <h2>Ejercicio 12</h2>
             <div class="row">
                 <div class="col-4">
@@ -48,8 +48,60 @@
             </div>
         </section>
 
-        <section>
+        <section class="mt-4">
             <h2>Ejercicio 40</h2>
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <form action="" method="post" id="formulario-40">
+                                <div class="mb-3">
+                                    <label for="txt-run" class="form-label">RUN:</label>
+                                    <input type="text" class="form-control" name="run" id="txt-run">
+                                    <div id="msg-run" class="form-text text-danger"></div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="txt-edad" class="form-label">Edad:</label>
+                                    <input type="number" class="form-control" name="edad" id="txt-edad">
+                                    <div id="msg-edad" class="form-text text-danger"></div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="txt-estatura" class="form-label">Estatura (cm):</label>
+                                    <input type="number" class="form-control" name="estatura" id="txt-estatura">
+                                    <div id="msg-estatura" class="form-text text-danger"></div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="txt-peso" class="form-label">Peso (kg):</label>
+                                    <input type="number" class="form-control" name="peso" id="txt-peso">
+                                    <div id="msg-peso" class="form-text text-danger"></div>
+                                </div>
+                                <div class="mb-3">
+                                    <button type="submit" class="btn btn-primary">Procesar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <h3>Listado de Deportistas</h3>
+                    <table id="listado-deportistas" class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>RUN</th>
+                                <th>Edad</th>
+                                <th>Estatura</th>
+                                <th>Peso</th>
+                                <th>Admitido</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="5" class="text-center">No hay deportistas registrados</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </section>
     </main>
 
@@ -59,7 +111,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/main01.js"></script>
+    <script src="assets/js/main02.js"></script>
 </body>
 
 </html>
