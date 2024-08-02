@@ -30,7 +30,7 @@ $(document).ready(function(){
             $("#result").html(`Proceso exitoso los número ingresados fueron ${n1} y ${n2}`)
         } else {
             $("#result").removeClass("alert-success").addClass("alert-danger")
-            $("#result").html(`Proceso fallido`)
+            $("#result").html(`Proceso fallido, ambos número son negativos`)
         }
     })
 })
